@@ -13,7 +13,7 @@ interface TextRevealProps {
   text: string;
   className?: string;
   delay?: number;
-  as?: React.ElementType;
+  as?: any;
 }
 
 export default function TextReveal({
