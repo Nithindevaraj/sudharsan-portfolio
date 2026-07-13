@@ -10,11 +10,11 @@ import ContactSection from "@/components/sections/ContactSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-[100dvh] flex-col items-center justify-between">
       <CustomCursor />
       
       {/* Hero Section */}
-      <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden">
+      <section className="relative w-full h-[100dvh] flex flex-col items-center justify-center overflow-hidden">
         <HeroBackground />
         <div className="absolute inset-0 bg-background/50 z-10 pointer-events-none" /> 
         
