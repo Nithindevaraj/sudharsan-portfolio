@@ -53,6 +53,7 @@ export default function ShowreelPlayer({
         </div>
       )}
 
+      {/* @ts-ignore - ReactPlayer types are incompatible with React 19 / Next 15 */}
       <ReactPlayer
         url={url}
         playing={playing}

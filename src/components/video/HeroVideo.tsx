@@ -30,6 +30,7 @@ export default function HeroVideo({
   return (
     <div className="absolute inset-0 w-full h-full -z-20 overflow-hidden bg-background">
       <div className="absolute inset-0 bg-background/60 z-10" /> {/* Overlay */}
+      {/* @ts-ignore - ReactPlayer types are incompatible with React 19 / Next 15 */}
       <ReactPlayer
         url={url}
         playing
