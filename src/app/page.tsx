@@ -1,7 +1,7 @@
 import Image from "next/image";
 import HeroBackground from "@/components/three/HeroBackground";
-import TextReveal from "@/components/animations/TextReveal";
 import ScrollReveal from "@/components/animations/ScrollReveal";
+import CharReveal from "@/components/animations/CharReveal";
 import MagneticButton from "@/components/animations/MagneticButton";
 import CustomCursor from "@/components/animations/CustomCursor";
 import ShowreelPlayer from "@/components/video/ShowreelPlayer";
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-background/50 z-10 pointer-events-none" /> 
         
         <div className="z-20 text-center px-4 w-full max-w-6xl mix-blend-difference pointer-events-none">
-          <TextReveal 
+          <CharReveal 
             text="SUDHARSAN" 
             as="h1" 
             className="text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter mb-4 md:mb-6 text-primary leading-none" 
