@@ -35,6 +35,8 @@ export default function ShowreelPlayer({
     setMuted(!muted);
   };
 
+  const Player = ReactPlayer as any;
+
   return (
     <div 
       className="group relative w-full aspect-video bg-background rounded-xl overflow-hidden cursor-pointer border border-border"
@@ -53,8 +55,7 @@ export default function ShowreelPlayer({
         </div>
       )}
 
-      {/* @ts-ignore - ReactPlayer types are incompatible with React 19 / Next 15 */}
-      <ReactPlayer
+      <Player
         url={url}
         playing={playing}
         muted={muted}
