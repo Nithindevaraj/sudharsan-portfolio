@@ -22,10 +22,10 @@ export default function Home() {
           <TextReveal 
             text="SUDHARSAN" 
             as="h1" 
-            className="text-6xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter mb-6 text-primary leading-none" 
+            className="text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] font-bold tracking-tighter mb-4 md:mb-6 text-primary leading-none" 
           />
           <ScrollReveal delay={0.5} direction="up" distance={30}>
-            <p className="text-xl md:text-3xl text-white/80 max-w-2xl mx-auto font-sans tracking-widest uppercase">
+            <p className="text-xs sm:text-sm md:text-xl lg:text-2xl text-white/80 max-w-2xl mx-auto font-sans tracking-widest uppercase">
               Video editor & Motion graphic designer
             </p>
           </ScrollReveal>
